@@ -3,9 +3,9 @@ import './Product.css'
 import { Button, Card } from 'react-bootstrap';
 import { BsFillCartFill } from "react-icons/bs";
 
-const Product = ({product}) => {
+const Product = ({product,addToCart}) => {
     const {img, name,price,id}=product
-    console.log(name);
+    
     return (
         <div className='col-lg-4 col-12 my-1'>
             <Card className='p-2'>
@@ -15,7 +15,7 @@ const Product = ({product}) => {
     <Card.Text>
       price:${price}
     </Card.Text>
-    <Button className='button'>Add to cart <BsFillCartFill/></Button>
+    <Button className='button' onClick={()=>addToCart(product)}>Add to cart <BsFillCartFill/></Button>
   </Card.Body>
 </Card>
         </div>
