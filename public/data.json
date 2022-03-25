@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "name": "Pearl And Stone Necklace",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0832120043418.jpg",
+      
+      "price": "540"
+     
+    },
+    {
+      "id": 2,
+      "name": "Beads Necklace",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/1/0/1052120006544.jpg",
+      
+      "price": "900"
+      
+    },
+    {
+      "id": 3,
+      "name": "Pearl Studded Brass Necklace",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0850000092544.jpg",
+    
+      "price": "900"
+     
+    },
+    {
+      "id": 4,
+      "name": "Gold Necklace",
+      "img": "https://images.unsplash.com/photo-1630918489439-e515f0601a36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z29sZCUyMGpld2VsbGVyeXxlbnwwfHwwfHw%3D&w=1000&q=80",
+     
+      "price": "1000"
+    
+    },
+    {
+      "id": 5,
+      "name": "Peacock Silver Necklace",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0830000040054.jpg",
+   
+      "price": "1720"
+    
+    },
+    {
+      "id": 6,
+      "name": "Oxidized Silver Bangle",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0832110042136.jpg",
+     
+      "price": "1900"
+      
+    },
+    {
+      "id": 7,
+      "name": "Pearl Bracelet",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0852110091461_1.jpg",
+      
+      "price": "5430"
+     
+    },
+    {
+      "id": 8,
+      "name": "Pearl Gold Earrings",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0842120095408.jpg",
+   
+      "price": "570"
+     
+    },
+    {
+      "id": 9,
+      "name": "Silver Anklet",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0832113092300_3.jpg",
+      
+      "price": "970"
+    
+    },
+    {
+      "id": 10,
+      "name": "Faux Crystal Silver Anklet",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/0/0000008301571.jpg",
+    
+      "price": "800"
+     
+    },
+    {
+      "id": 11,
+      "name": "Pearl Silver Locket",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0830000044324.jpg",
+     
+      "price": "750"
+     
+    },
+    {
+      "id": 12,
+      "name": "Stone Silver Locket",
+      "img": "https://www.aarong.com/media/catalog/product/cache/bd40fef6595cf41052cffa2edb765d82/0/8/0830000042467.jpg",
+     
+      "price": "880"
+     
+    }
+    
+  ]
