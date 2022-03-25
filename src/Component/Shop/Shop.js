@@ -15,6 +15,7 @@ const Shop = () => {
     
     // console.log(setJewellerys);
     
+
     useEffect(()=>{
         fetch("data.json")
         .then(res=>res.json())
