@@ -35,14 +35,14 @@ const Shop = () => {
     },[])
     return (
         <div className='row shopContainer'>
-            <div className="col-lg-9">
+            <div className="col-lg-9 shadow-lg">
                <div className="row">
                {
                     products.map(product=><Product key={product.id} product={product} addToCart={addToCart}></Product>)
                 }
                </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 shadow-lg">
                 
                 <div className='container cart p-3'>
             <h1 className='mb-5'>Selected Items</h1>

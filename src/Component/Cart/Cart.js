@@ -18,7 +18,7 @@ const Cart = ({singleJewellery,clearCart}) => {
           marginRight: "-50%",
           transform: "translate(-50%, -50%)",
           height: "200px",
-          width: "300px",
+          width: "500px",
           overflow: "auto",
         },
       };

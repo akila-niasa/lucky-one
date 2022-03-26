@@ -9,7 +9,7 @@ function App() {
   return (
     <div >
      <Header></Header>
-     <div className='container-fluid'>
+     <div className='container-fluid '>
        <Shop></Shop>
        <Question></Question>
      </div>
