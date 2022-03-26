@@ -2,7 +2,7 @@ import React from 'react';
 
 const Question = () => {
     return (
-        <div className='container'>
+        <div className='container mt-5'>
             <div className='p-3'>
                 <h1>HOW REACT WORKS</h1>
                 <p>React isn't an  framework, it is a library for building composable user interfaces.When we create a script and give it to the browser then browser create a DOM stracture.React create virtual DOM.After that compare between two DOM.If there anything change between two DOM React gives it back.when there something change between two DOM React gives us the changes.</p>

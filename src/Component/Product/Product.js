@@ -4,6 +4,7 @@ import { Button, Card } from 'react-bootstrap';
 import { BsFillCartFill } from "react-icons/bs";
 
 const Product = ({product,addToCart}) => {
+  // console.log(product);
     const {img, name,price,id}=product
     
     return (
