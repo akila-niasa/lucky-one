@@ -1,6 +1,6 @@
 # luck-one
 
-This project's live link:[https://brilliant-chaja-38c361.netlify.app/](https://github.com/facebook/create-react-app).
+This project's live link:[https://brilliant-chaja-38c361.netlify.app/](https://brilliant-chaja-38c361.netlify.app/).
 
 ## Available Scripts
 
