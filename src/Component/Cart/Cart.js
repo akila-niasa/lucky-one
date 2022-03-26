@@ -37,9 +37,11 @@ const Cart = ({singleJewellery,clearCart}) => {
     
     return (
        <div>
+        <div className="container">
         {
              singleJewellery.map(jwellery=><List key={jwellery.id} jwellery={jwellery}></List>)
         }
+        </div>
         <Button onClick={()=>random(singleJewellery)} className='button mt-5'>CHOOSE 1 FOR ME</Button>
             <br />
             <Button onClick={clearCart} className='button'>CHOSE AGAIN</Button>
