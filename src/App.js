@@ -2,13 +2,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Shop from './Component/Shop/Shop';
+import Question from './Component/Question/Question';
+import Header from './Component/Header/Header';
 
 function App() {
   return (
     <div >
-     <h1 className='bg-dark text-light p-5'>JEWELLERY STORE</h1>
+     <Header></Header>
      <div className='container-fluid'>
        <Shop></Shop>
+       <Question></Question>
      </div>
     </div>
   );

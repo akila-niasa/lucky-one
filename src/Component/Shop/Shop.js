@@ -7,13 +7,23 @@ const Shop = () => {
     
     const [products,setProducts]=useState([])
     const [jewllerys,setJewellerys]=useState([])
+    
     const addToCart=(jewllery)=>{
         // console.log(jewllery);
         const newjewellery=[...jewllerys,jewllery]
          setJewellerys(newjewellery) 
     }
+    const randomCart=(jewllery)=>{
+        if(jewllerys.length>=0){
+            let random=Math.floor(Math.random()*jewllerys.length)
+            console.log(random);
+            
+        }
     
-    // console.log(setJewellerys);
+    }
+    const clearCart=()=>{
+        setJewellerys([])
+    }
     
 
     useEffect(()=>{
@@ -35,13 +45,16 @@ const Shop = () => {
                 <div className='container cart p-3'>
             <h1 className='mb-5'>Selected Items</h1>
             {
-                   jewllerys.map(singleJewellery=><Cart key={singleJewellery.id} singleJewllery={singleJewellery}></Cart>)
-                   
-                }
+                 jewllerys.map(singleJewellery=> <Cart key={singleJewellery.id} singleJewllery={singleJewellery}></Cart>)
                 
-            <Button className='button mt-5'>CHOOSE 1 FOR ME</Button>
+                // <h1 key={singleJewellery.id}>{singleJewellery.name}</h1>
+            }
+                
+           
+           
+            <Button onClick={randomCart} className='button mt-5'>CHOOSE 1 FOR ME</Button>
             <br />
-            <Button className='button'>CHOSE AGAIN</Button>
+            <Button onClick={clearCart} className='button'>CHOSE AGAIN</Button>
         </div>
             </div>
         </div>
